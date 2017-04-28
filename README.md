@@ -5,7 +5,7 @@
 [coverall-badge]: https://coveralls.io/repos/github/wvlet/sql/badge.svg?branch=master
 [coverall-link]: https://coveralls.io/github/wvlet/rador?branch=master
 
-wvlet-sql is a library for 
+wvlet-sql is a library for managing SQL queries like Scala collections
 
 - [Initial Design Document](https://docs.google.com/document/d/1cTmXxsq7MBVplw8T3D0mBa4NOYI8BPpOF1rPywAzpEk/edit?usp=sharing)
 
