@@ -1,4 +1,4 @@
-# wvlet-sql  [![Gitter Chat][gitter-badge]][gitter-link] [![Build Status](https://travis-ci.org/wvlet/sql.svg?branch=master)](https://travis-ci.org/wvlet/sql) [![Latest version](https://index.scala-lang.org/wvlet/sql/sql/latest.svg?color=orange)](https://index.scala-lang.org/wvlet/sql) [![Coverage Status][coverall-badge]][coverall-link] [![Scala.js](https://www.scala-js.org/assets/badges/scalajs-0.6.15.svg)](https://www.scala-js.org)
+# wvlet-sql  [![Gitter Chat][gitter-badge]][gitter-link] [![Build Status](https://travis-ci.org/wvlet/sql.svg?branch=master)](https://travis-ci.org/wvlet/sql) [![Latest version](https://index.scala-lang.org/wvlet/sql/sql/latest.svg?color=orange)](https://index.scala-lang.org/wvlet/sql) [![Coverage Status][coverall-badge]][coverall-link]
 
 [gitter-badge]: https://badges.gitter.im/Join%20Chat.svg
 [gitter-link]: https://gitter.im/wvlet/wvlet?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
