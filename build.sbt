@@ -1,5 +1,6 @@
 import sbtrelease.ReleasePlugin.autoImport.ReleaseTransformations._
 
+
 val SCALA_VERSION = "2.12.1"
 scalaVersion in ThisBuild := SCALA_VERSION
 
@@ -64,8 +65,7 @@ val buildSettings = Seq[Setting[_]](
 lazy val wvletSql = Project(id="wvlet-sql", base = file("."))
   .settings(buildSettings)
   .settings(
-    name := "sql",
-    description := "Scala collection like SQL oprator",
+    description := "Bridging gaps between SQL and Scala collections",
     libraryDependencies ++= Seq(
       "org.wvlet" %%% "wvlet-log" % "1.2.3",
       "org.scalatest" %%% "scalatest" % "3.0.1" % "test"
