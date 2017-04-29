@@ -1,6 +1,5 @@
 import sbtrelease.ReleasePlugin.autoImport.ReleaseTransformations._
 
-
 val SCALA_VERSION = "2.12.1"
 scalaVersion in ThisBuild := SCALA_VERSION
 
@@ -10,7 +9,7 @@ val sonatypeRepos = Seq(
 )
 
 val buildSettings = Seq[Setting[_]](
-  crossScalaVersions := Seq("2.11.8", SCALA_VERSION),
+  crossScalaVersions := Seq("2.10.6", "2.11.8", SCALA_VERSION),
   organization := "org.wvlet",
   crossPaths := true,
   publishMavenStyle := true,
@@ -67,8 +66,8 @@ lazy val wvletSql = Project(id="wvlet-sql", base = file("."))
   .settings(
     description := "Bridging gaps between SQL and Scala collections",
     libraryDependencies ++= Seq(
-      "org.wvlet" %%% "wvlet-log" % "1.2.3",
-      "org.scalatest" %%% "scalatest" % "3.0.1" % "test"
+      "org.scala-lang" % "scala-reflect" % scalaVersion.value,
+      "org.scala-lang" % "scala-compiler" % scalaVersion.value % "provided",
+      "org.scalatest" %% "scalatest" % "3.0.1" % "test"
     )
   )
-)
